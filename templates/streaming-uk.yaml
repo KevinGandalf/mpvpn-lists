@@ -1,0 +1,48 @@
+id: streaming-uk
+name:
+    de: Streaming Großbritannien
+    en: Streaming UK
+description:
+    de: BBC iPlayer, ITVX, Channel 4, My5, NOW, Sky UK, BritBox, U – britische Inhalte über einen UK-Uplink.
+    en: BBC iPlayer, ITVX, Channel 4, My5, NOW, Sky UK, BritBox, U – British content through a UK uplink.
+priority: 0
+services:
+-   id: bbc-iplayer
+    name: BBC iPlayer
+    domains:
+    - '**.bbc.co.uk'
+    - '**.bbci.co.uk'
+-   id: itvx
+    name: ITVX
+    domains:
+    - '**.itv.com'
+    - '**.itvx.com'
+-   id: channel-4
+    name: Channel 4
+    domains:
+    - '**.channel4.com'
+-   id: my5
+    name: My5 (Channel 5)
+    domains:
+    - '**.channel5.com'
+-   id: now
+    name: NOW
+    domains:
+    - '**.nowtv.com'
+-   id: sky-uk
+    name: Sky UK
+    domains:
+    - '**.sky.com'
+-   id: britbox
+    name: BritBox
+    domains:
+    - '**.britbox.com'
+-   id: u-uktv
+    name: U (UKTV)
+    domains:
+    - '**.u.co.uk'
+    - '**.uktvplay.co.uk'
+-   id: stv
+    name: STV Player
+    domains:
+    - '**.stv.tv'

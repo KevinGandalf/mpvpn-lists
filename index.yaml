@@ -1,12 +1,54 @@
-version: 2026.11.03
+version: 2026.11.03.1
 templates:
-    - templates/ai.yaml
-    - templates/banking.yaml
-    - templates/gaming.yaml
-    - templates/mail-cloud.yaml
-    - templates/music.yaml
-    - templates/news.yaml
-    - templates/shopping.yaml
-    - templates/social.yaml
-    - templates/streaming.yaml
-    - templates/video-calls.yaml
+- templates/ai.yaml
+- templates/banking.yaml
+- templates/banking-international.yaml
+- templates/crypto.yaml
+- templates/gaming.yaml
+- templates/mail-cloud.yaml
+- templates/music.yaml
+- templates/news.yaml
+- templates/news-alternative.yaml
+- templates/news-international.yaml
+- templates/shopping.yaml
+- templates/social.yaml
+- templates/streaming-de.yaml
+- templates/streaming-other.yaml
+- templates/streaming-uk.yaml
+- templates/streaming-us.yaml
+- templates/video-calls.yaml
+aliases:
+    streaming:
+    - streaming-de
+    - streaming-us
+    - streaming-uk
+    - streaming-other
+    streaming/netflix:
+    - streaming-us/netflix
+    streaming/disney-plus:
+    - streaming-us/disney-plus
+    streaming/prime-video:
+    - streaming-us/prime-video
+    streaming/apple-tv-plus:
+    - streaming-us/apple-tv-plus
+    streaming/paramount-plus:
+    - streaming-us/paramount-plus
+    streaming/youtube:
+    - streaming-other/youtube
+    streaming/twitch:
+    - streaming-other/twitch
+    streaming/crunchyroll:
+    - streaming-other/crunchyroll
+    streaming/dazn:
+    - streaming-de/dazn
+    streaming/wow-sky:
+    - streaming-de/wow-sky
+    - streaming-uk/sky-uk
+    streaming/joyn:
+    - streaming-de/joyn
+    streaming/rtl-plus:
+    - streaming-de/rtl-plus
+    streaming/ard-zdf-arte:
+    - streaming-de/ard
+    - streaming-de/zdf
+    - streaming-de/arte

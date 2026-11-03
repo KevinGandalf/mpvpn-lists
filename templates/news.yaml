@@ -1,60 +1,145 @@
 id: news
 name:
-    de: News & Medien
-    en: News & media
+    de: Nachrichten DE/AT/CH
+    en: News (DE/AT/CH)
 description:
-    de: tagesschau, SPIEGEL, ZEIT, FAZ, Süddeutsche, Welt, Bild, n-tv, t-online, heise, golem, Stern, Focus
-    en: tagesschau, SPIEGEL, ZEIT, FAZ, Süddeutsche, Welt, Bild, n-tv, t-online, heise, golem, Stern, Focus
+    de: Überregionale Presse und Fachmedien aus Deutschland, Österreich und der Schweiz.
+    en: National press and tech media from Germany, Austria and Switzerland.
+priority: 0
 services:
-    - id: tagesschau
-      name: tagesschau
-      domains:
-        - '**.tagesschau.de'
-    - id: spiegel
-      name: SPIEGEL
-      domains:
-        - '**.spiegel.de'
-    - id: zeit
-      name: ZEIT
-      domains:
-        - '**.zeit.de'
-    - id: faz
-      name: FAZ
-      domains:
-        - '**.faz.net'
-    - id: sueddeutsche
-      name: Süddeutsche
-      domains:
-        - '**.sueddeutsche.de'
-    - id: welt
-      name: Welt
-      domains:
-        - '**.welt.de'
-    - id: bild
-      name: Bild
-      domains:
-        - '**.bild.de'
-    - id: n-tv
-      name: n-tv
-      domains:
-        - '**.n-tv.de'
-    - id: t-online
-      name: t-online
-      domains:
-        - '**.t-online.de'
-    - id: heise
-      name: heise
-      domains:
-        - '**.heise.de'
-    - id: golem
-      name: golem
-      domains:
-        - '**.golem.de'
-    - id: stern
-      name: Stern
-      domains:
-        - '**.stern.de'
-    - id: focus
-      name: Focus
-      domains:
-        - '**.focus.de'
+-   id: tagesschau
+    name: tagesschau
+    domains:
+    - '**.tagesschau.de'
+-   id: deutschlandfunk
+    name: Deutschlandfunk
+    domains:
+    - '**.deutschlandfunk.de'
+-   id: spiegel
+    name: SPIEGEL
+    domains:
+    - '**.spiegel.de'
+-   id: zeit
+    name: ZEIT
+    domains:
+    - '**.zeit.de'
+-   id: faz
+    name: FAZ
+    domains:
+    - '**.faz.net'
+-   id: sueddeutsche
+    name: Süddeutsche
+    domains:
+    - '**.sueddeutsche.de'
+-   id: welt
+    name: Welt
+    domains:
+    - '**.welt.de'
+-   id: bild
+    name: Bild
+    domains:
+    - '**.bild.de'
+-   id: stern
+    name: Stern
+    domains:
+    - '**.stern.de'
+-   id: focus
+    name: Focus
+    domains:
+    - '**.focus.de'
+-   id: n-tv
+    name: n-tv
+    domains:
+    - '**.n-tv.de'
+-   id: t-online
+    name: t-online
+    domains:
+    - '**.t-online.de'
+-   id: tagesspiegel
+    name: Tagesspiegel
+    domains:
+    - '**.tagesspiegel.de'
+-   id: handelsblatt
+    name: Handelsblatt
+    domains:
+    - '**.handelsblatt.com'
+-   id: wiwo
+    name: WirtschaftsWoche
+    domains:
+    - '**.wiwo.de'
+-   id: taz
+    name: taz
+    domains:
+    - '**.taz.de'
+-   id: fr
+    name: Frankfurter Rundschau
+    domains:
+    - '**.fr.de'
+-   id: berliner-zeitung
+    name: Berliner Zeitung
+    domains:
+    - '**.berliner-zeitung.de'
+-   id: rnd
+    name: RND
+    domains:
+    - '**.rnd.de'
+-   id: merkur
+    name: Merkur
+    domains:
+    - '**.merkur.de'
+-   id: waz
+    name: WAZ
+    domains:
+    - '**.waz.de'
+-   id: rp
+    name: Rheinische Post
+    domains:
+    - '**.rp-online.de'
+-   id: watson
+    name: watson
+    domains:
+    - '**.watson.de'
+-   id: kicker
+    name: kicker
+    domains:
+    - '**.kicker.de'
+-   id: der-standard
+    name: Der Standard
+    domains:
+    - '**.derstandard.at'
+-   id: die-presse
+    name: Die Presse
+    domains:
+    - '**.diepresse.com'
+-   id: nzz
+    name: NZZ
+    domains:
+    - '**.nzz.ch'
+-   id: tages-anzeiger
+    name: Tages-Anzeiger
+    domains:
+    - '**.tagesanzeiger.ch'
+-   id: heise
+    name: heise
+    domains:
+    - '**.heise.de'
+-   id: golem
+    name: golem
+    domains:
+    - '**.golem.de'
+-   id: t3n
+    name: t3n
+    domains:
+    - '**.t3n.de'
+-   id: chip
+    name: CHIP
+    domains:
+    - '**.chip.de'
+-   id: computerbild
+    name: COMPUTER BILD
+    domains:
+    - '**.computerbild.de'
+-   id: netzpolitik
+    name: netzpolitik.org
+    domains:
+    - '**.netzpolitik.org'

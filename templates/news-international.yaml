@@ -1,0 +1,112 @@
+id: news-international
+name:
+    de: Nachrichten international
+    en: News (international)
+description:
+    de: 'Internationale Presse und Nachrichtenagenturen: BBC, CNN, New York Times, Guardian, Reuters, AP, Bloomberg, FT, Le Monde, El País und mehr.'
+    en: 'International press and news agencies: BBC, CNN, New York Times, Guardian, Reuters, AP, Bloomberg, FT, Le Monde, El País and more.'
+priority: 0
+services:
+-   id: bbc-news
+    name: BBC News
+    domains:
+    - '**.bbc.com'
+-   id: cnn
+    name: CNN
+    domains:
+    - '**.cnn.com'
+-   id: nytimes
+    name: The New York Times
+    domains:
+    - '**.nytimes.com'
+    - '**.nyt.com'
+-   id: washington-post
+    name: The Washington Post
+    domains:
+    - '**.washingtonpost.com'
+-   id: wsj
+    name: The Wall Street Journal
+    domains:
+    - '**.wsj.com'
+-   id: guardian
+    name: The Guardian
+    domains:
+    - '**.theguardian.com'
+    - '**.guim.co.uk'
+-   id: independent
+    name: The Independent
+    domains:
+    - '**.independent.co.uk'
+-   id: daily-mail
+    name: Daily Mail
+    domains:
+    - '**.dailymail.co.uk'
+-   id: reuters
+    name: Reuters
+    domains:
+    - '**.reuters.com'
+-   id: ap
+    name: AP News
+    domains:
+    - '**.apnews.com'
+-   id: bloomberg
+    name: Bloomberg
+    domains:
+    - '**.bloomberg.com'
+-   id: ft
+    name: Financial Times
+    domains:
+    - '**.ft.com'
+-   id: economist
+    name: The Economist
+    domains:
+    - '**.economist.com'
+-   id: politico
+    name: POLITICO
+    domains:
+    - '**.politico.com'
+    - '**.politico.eu'
+-   id: axios
+    name: Axios
+    domains:
+    - '**.axios.com'
+-   id: npr
+    name: NPR
+    domains:
+    - '**.npr.org'
+-   id: fox-news
+    name: Fox News
+    domains:
+    - '**.foxnews.com'
+-   id: nbc-news
+    name: NBC News
+    domains:
+    - '**.nbcnews.com'
+-   id: al-jazeera
+    name: Al Jazeera
+    domains:
+    - '**.aljazeera.com'
+-   id: dw
+    name: Deutsche Welle
+    domains:
+    - '**.dw.com'
+-   id: euronews
+    name: Euronews
+    domains:
+    - '**.euronews.com'
+-   id: france24
+    name: France 24
+    domains:
+    - '**.france24.com'
+-   id: le-monde
+    name: Le Monde
+    domains:
+    - '**.lemonde.fr'
+-   id: el-pais
+    name: El País
+    domains:
+    - '**.elpais.com'
+-   id: corriere
+    name: Corriere della Sera
+    domains:
+    - '**.corriere.it'

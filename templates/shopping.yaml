@@ -3,70 +3,235 @@ name:
     de: Shopping
     en: Shopping
 description:
-    de: Amazon, eBay, Otto, Zalando, Kaufland, MediaMarkt/Saturn, Lidl, IKEA, About You, idealo, AliExpress, Temu, Etsy
-    en: Amazon, eBay, Otto, Zalando, Kaufland, MediaMarkt/Saturn, Lidl, IKEA, About You, idealo, AliExpress, Temu, Etsy
+    de: Marktplätze, Mode, Technik, Drogerie, Baumarkt, Lebensmittel, Reisen und Lieferdienste – deutsche und internationale Shops.
+    en: Marketplaces, fashion, electronics, drugstores, DIY, groceries, travel and delivery – German and international shops.
+priority: 0
 services:
-    - id: amazon
-      name: Amazon
-      domains:
-        - '**.amazon.de'
-        - '**.amazon.com'
-        - '**.media-amazon.com'
-        - '**.ssl-images-amazon.com'
-        - '**.amazon-adsystem.com'
-    - id: ebay
-      name: eBay
-      domains:
-        - '**.ebay.de'
-        - '**.ebay.com'
-        - '**.ebaystatic.com'
-        - '**.ebayimg.com'
-    - id: otto
-      name: Otto
-      domains:
-        - '**.otto.de'
-    - id: zalando
-      name: Zalando
-      domains:
-        - '**.zalando.de'
-        - '**.zalando.net'
-        - '**.ztat.net'
-    - id: kaufland
-      name: Kaufland
-      domains:
-        - '**.kaufland.de'
-    - id: mediamarkt-saturn
-      name: MediaMarkt / Saturn
-      domains:
-        - '**.mediamarkt.de'
-        - '**.saturn.de'
-    - id: lidl
-      name: Lidl
-      domains:
-        - '**.lidl.de'
-    - id: ikea
-      name: IKEA
-      domains:
-        - '**.ikea.com'
-    - id: about-you
-      name: About You
-      domains:
-        - '**.aboutyou.de'
-    - id: idealo
-      name: idealo
-      domains:
-        - '**.idealo.de'
-    - id: aliexpress
-      name: AliExpress
-      domains:
-        - '**.aliexpress.com'
-        - '**.alicdn.com'
-    - id: temu
-      name: Temu
-      domains:
-        - '**.temu.com'
-    - id: etsy
-      name: Etsy
-      domains:
-        - '**.etsy.com'
-        - '**.etsystatic.com'
+-   id: amazon
+    name: Amazon
+    domains:
+    - '**.amazon.de'
+    - '**.amazon.com'
+    - '**.amazon.co.uk'
+    - '**.amazon.fr'
+    - '**.amazon.it'
+    - '**.amazon.es'
+    - '**.amazon.nl'
+    - '**.amazon.at'
+    - '**.media-amazon.com'
+    - '**.ssl-images-amazon.com'
+    - '**.amazon-adsystem.com'
+-   id: ebay
+    name: eBay
+    domains:
+    - '**.ebay.de'
+    - '**.ebay.com'
+    - '**.ebaystatic.com'
+    - '**.ebayimg.com'
+-   id: kleinanzeigen
+    name: Kleinanzeigen
+    domains:
+    - '**.kleinanzeigen.de'
+-   id: vinted
+    name: Vinted
+    domains:
+    - '**.vinted.de'
+    - '**.vinted.com'
+-   id: otto
+    name: Otto
+    domains:
+    - '**.otto.de'
+-   id: kaufland
+    name: Kaufland
+    domains:
+    - '**.kaufland.de'
+-   id: galaxus
+    name: Galaxus / Digitec
+    domains:
+    - '**.galaxus.de'
+    - '**.galaxus.ch'
+    - '**.digitec.ch'
+-   id: bol
+    name: bol.
+    domains:
+    - '**.bol.com'
+-   id: allegro
+    name: Allegro
+    domains:
+    - '**.allegro.pl'
+-   id: aliexpress
+    name: AliExpress
+    domains:
+    - '**.aliexpress.com'
+    - '**.alicdn.com'
+-   id: temu
+    name: Temu
+    domains:
+    - '**.temu.com'
+-   id: shein
+    name: SHEIN
+    domains:
+    - '**.shein.com'
+-   id: etsy
+    name: Etsy
+    domains:
+    - '**.etsy.com'
+    - '**.etsystatic.com'
+-   id: walmart
+    name: Walmart
+    domains:
+    - '**.walmart.com'
+-   id: target
+    name: Target
+    domains:
+    - '**.target.com'
+-   id: best-buy
+    name: Best Buy
+    domains:
+    - '**.bestbuy.com'
+-   id: zalando
+    name: Zalando
+    domains:
+    - '**.zalando.de'
+    - '**.zalando.net'
+    - '**.ztat.net'
+-   id: about-you
+    name: About You
+    domains:
+    - '**.aboutyou.de'
+-   id: hm
+    name: H&M
+    domains:
+    - '**.hm.com'
+-   id: zara
+    name: Zara
+    domains:
+    - '**.zara.com'
+-   id: asos
+    name: ASOS
+    domains:
+    - '**.asos.com'
+-   id: bonprix
+    name: bonprix
+    domains:
+    - '**.bonprix.de'
+-   id: tchibo
+    name: Tchibo
+    domains:
+    - '**.tchibo.de'
+-   id: decathlon
+    name: Decathlon
+    domains:
+    - '**.decathlon.de'
+-   id: mediamarkt-saturn
+    name: MediaMarkt / Saturn
+    domains:
+    - '**.mediamarkt.de'
+    - '**.saturn.de'
+-   id: conrad
+    name: Conrad
+    domains:
+    - '**.conrad.de'
+-   id: cyberport
+    name: Cyberport
+    domains:
+    - '**.cyberport.de'
+-   id: notebooksbilliger
+    name: notebooksbilliger
+    domains:
+    - '**.notebooksbilliger.de'
+-   id: alternate
+    name: Alternate
+    domains:
+    - '**.alternate.de'
+-   id: mindfactory
+    name: Mindfactory
+    domains:
+    - '**.mindfactory.de'
+-   id: coolblue
+    name: Coolblue
+    domains:
+    - '**.coolblue.de'
+    - '**.coolblue.nl'
+-   id: idealo
+    name: idealo
+    domains:
+    - '**.idealo.de'
+-   id: check24
+    name: CHECK24
+    domains:
+    - '**.check24.de'
+-   id: douglas
+    name: Douglas
+    domains:
+    - '**.douglas.de'
+-   id: dm
+    name: dm
+    domains:
+    - '**.dm.de'
+-   id: rossmann
+    name: Rossmann
+    domains:
+    - '**.rossmann.de'
+-   id: thalia
+    name: Thalia
+    domains:
+    - '**.thalia.de'
+-   id: galeria
+    name: Galeria
+    domains:
+    - '**.galeria.de'
+-   id: ikea
+    name: IKEA
+    domains:
+    - '**.ikea.com'
+-   id: obi
+    name: OBI
+    domains:
+    - '**.obi.de'
+-   id: hornbach
+    name: Hornbach
+    domains:
+    - '**.hornbach.de'
+-   id: bauhaus
+    name: Bauhaus
+    domains:
+    - '**.bauhaus.info'
+-   id: lidl
+    name: Lidl
+    domains:
+    - '**.lidl.de'
+-   id: aldi
+    name: Aldi
+    domains:
+    - '**.aldi-nord.de'
+    - '**.aldi-sued.de'
+-   id: rewe
+    name: REWE
+    domains:
+    - '**.rewe.de'
+-   id: edeka
+    name: EDEKA
+    domains:
+    - '**.edeka.de'
+-   id: netto
+    name: Netto
+    domains:
+    - '**.netto-online.de'
+-   id: lieferando
+    name: Lieferando
+    domains:
+    - '**.lieferando.de'
+-   id: wolt
+    name: Wolt
+    domains:
+    - '**.wolt.com'
+-   id: booking
+    name: Booking.com
+    domains:
+    - '**.booking.com'
+-   id: airbnb
+    name: Airbnb
+    domains:
+    - '**.airbnb.de'
+    - '**.airbnb.com'

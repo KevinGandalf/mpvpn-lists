@@ -54,6 +54,7 @@ def main():
         if f not in listed:
             errors.append(f"{f}: not listed in index.yaml (MPVPN would ignore it)")
     seen, services, patterns = set(), 0, 0
+    keys = set()
     for f in files:
         if not VALID_FILE.match(f):
             errors.append(f"index.yaml: bad path {f!r} (want templates/<id>.yaml)")
@@ -85,6 +86,7 @@ def main():
             if not VALID_ID.match(sid) or sid in ids:
                 errors.append(f"{f}: service id {sid!r} invalid or duplicate")
             ids.add(sid)
+            keys.add(f"{tid}/{sid}")
             if not str(sv.get("name", "")).strip() or len(str(sv.get("name"))) > 80:
                 errors.append(f"{f}: service {sid}: name missing or too long")
             doms = sv.get("domains") or []
@@ -101,6 +103,22 @@ def main():
                 dd.add(d)
             services += 1
             patterns += len(doms)
+    # aliases keep old IDs of renamed/split templates and services working
+    for src, dst in (idx.get("aliases") or {}).items():
+        if not dst:
+            errors.append(f"index.yaml: alias {src!r} has no target")
+        if "/" in src:
+            if src in keys:
+                errors.append(f"index.yaml: alias {src!r} shadows an existing service")
+            for d in dst or []:
+                if d not in keys:
+                    errors.append(f"index.yaml: alias {src!r}: unknown service {d!r}")
+        else:
+            if src in seen:
+                errors.append(f"index.yaml: alias {src!r} shadows an existing template")
+            for d in dst or []:
+                if d not in seen:
+                    errors.append(f"index.yaml: alias {src!r}: unknown template {d!r}")
     if services > MAX_SERVICES or patterns > MAX_PATTERNS:
         errors.append(f"too large: {services} services, {patterns} patterns")
     for e in errors:

@@ -1,0 +1,80 @@
+id: streaming-de
+name:
+    de: Streaming Deutschland
+    en: Streaming Germany
+description:
+    de: ARD, ZDF, arte, RTL+, Joyn, WOW/Sky, MagentaTV, waipu.tv, Zattoo, DAZN – für deutsche Inhalte (z. B. über einen deutschen Uplink aus dem Ausland).
+    en: ARD, ZDF, arte, RTL+, Joyn, WOW/Sky, MagentaTV, waipu.tv, Zattoo, DAZN – German content (e.g. through a German uplink when abroad).
+priority: 0
+services:
+-   id: ard
+    name: ARD Mediathek
+    domains:
+    - '**.ardmediathek.de'
+    - '**.ard.de'
+    - '**.daserste.de'
+    - '**.br.de'
+    - '**.ndr.de'
+    - '**.wdr.de'
+    - '**.swr.de'
+    - '**.mdr.de'
+    - '**.hr.de'
+    - '**.rbb-online.de'
+-   id: zdf
+    name: ZDF
+    domains:
+    - '**.zdf.de'
+    - '**.3sat.de'
+    - '**.kika.de'
+    - '**.phoenix.de'
+    - '**.funk.net'
+-   id: arte
+    name: arte
+    domains:
+    - '**.arte.tv'
+-   id: rtl-plus
+    name: RTL+
+    domains:
+    - '**.rtlplus.de'
+    - '**.plus.rtl.de'
+    - '**.rtl.de'
+    - '**.vox.de'
+-   id: joyn
+    name: Joyn
+    domains:
+    - '**.joyn.de'
+    - '**.joyn.net'
+    - '**.prosieben.de'
+    - '**.sat1.de'
+-   id: wow-sky
+    name: WOW / Sky Deutschland
+    domains:
+    - '**.wowtv.de'
+    - '**.sky.de'
+-   id: magenta-tv
+    name: MagentaTV
+    domains:
+    - '**.magentatv.de'
+    - '**.magentasport.de'
+-   id: waipu-tv
+    name: waipu.tv
+    domains:
+    - '**.waipu.tv'
+-   id: zattoo
+    name: Zattoo
+    domains:
+    - '**.zattoo.com'
+-   id: dazn
+    name: DAZN
+    domains:
+    - '**.dazn.com'
+    - '**.dazn-api.com'
+    - '**.indazn.com'
+-   id: servus-tv
+    name: ServusTV
+    domains:
+    - '**.servustv.com'
+-   id: sport1
+    name: SPORT1
+    domains:
+    - '**.sport1.de'

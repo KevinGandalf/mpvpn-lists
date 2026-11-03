@@ -1,0 +1,110 @@
+id: streaming-us
+name:
+    de: Streaming USA
+    en: Streaming US
+description:
+    de: Netflix, Disney+, Prime Video, Max, Hulu, Peacock, Paramount+, Apple TV+ und weitere US-Dienste – über einen US-Uplink gibt es den US-Katalog.
+    en: Netflix, Disney+, Prime Video, Max, Hulu, Peacock, Paramount+, Apple TV+ and more – a US uplink gets you the US catalogue.
+priority: 0
+services:
+-   id: netflix
+    name: Netflix
+    domains:
+    - '**.netflix.com'
+    - '**.netflix.net'
+    - '**.nflxvideo.net'
+    - '**.nflximg.net'
+    - '**.nflximg.com'
+    - '**.nflxext.com'
+    - '**.nflxso.net'
+-   id: disney-plus
+    name: Disney+
+    domains:
+    - '**.disneyplus.com'
+    - '**.disney-plus.net'
+    - '**.dssott.com'
+    - '**.bamgrid.com'
+    - '**.disneystreaming.com'
+-   id: prime-video
+    name: Prime Video
+    domains:
+    - '**.primevideo.com'
+    - '**.aiv-cdn.net'
+    - '**.aiv-delivery.net'
+    - '**.amazonvideo.com'
+    - '**.pv-cdn.net'
+-   id: apple-tv-plus
+    name: Apple TV+
+    domains:
+    - '**.tv.apple.com'
+-   id: max
+    name: Max (HBO)
+    domains:
+    - '**.max.com'
+    - '**.hbomax.com'
+    - '**.hbo.com'
+-   id: hulu
+    name: Hulu
+    domains:
+    - '**.hulu.com'
+    - '**.huluim.com'
+    - '**.hulustream.com'
+-   id: peacock
+    name: Peacock
+    domains:
+    - '**.peacocktv.com'
+-   id: paramount-plus
+    name: Paramount+
+    domains:
+    - '**.paramountplus.com'
+    - '**.cbs.com'
+-   id: discovery-plus
+    name: discovery+
+    domains:
+    - '**.discoveryplus.com'
+-   id: espn
+    name: ESPN
+    domains:
+    - '**.espn.com'
+    - '**.espncdn.com'
+-   id: fubo
+    name: Fubo
+    domains:
+    - '**.fubo.tv'
+-   id: sling
+    name: Sling TV
+    domains:
+    - '**.sling.com'
+-   id: philo
+    name: Philo
+    domains:
+    - '**.philo.com'
+-   id: pluto-tv
+    name: Pluto TV
+    domains:
+    - '**.pluto.tv'
+-   id: tubi
+    name: Tubi
+    domains:
+    - '**.tubi.tv'
+    - '**.tubitv.com'
+-   id: roku
+    name: The Roku Channel
+    domains:
+    - '**.roku.com'
+-   id: starz
+    name: Starz
+    domains:
+    - '**.starz.com'
+-   id: amc-plus
+    name: AMC+
+    domains:
+    - '**.amcplus.com'
+-   id: nbc
+    name: NBC
+    domains:
+    - '**.nbc.com'
+-   id: abc
+    name: ABC
+    domains:
+    - '**.abc.com'

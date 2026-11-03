@@ -1,0 +1,118 @@
+id: streaming-other
+name:
+    de: Streaming sonstige
+    en: Streaming (other)
+description:
+    de: YouTube, Twitch, Crunchyroll und Video-Plattformen sowie Mediatheken aus Österreich, der Schweiz, den Niederlanden, Skandinavien, Italien, Frankreich, Kanada, Australien und Asien.
+    en: YouTube, Twitch, Crunchyroll and video platforms plus broadcasters from Austria, Switzerland, the Netherlands, Scandinavia, Italy, France, Canada, Australia and Asia.
+priority: 0
+services:
+-   id: youtube
+    name: YouTube
+    domains:
+    - '**.youtube.com'
+    - '**.googlevideo.com'
+    - '**.ytimg.com'
+    - '**.youtu.be'
+    - '**.youtube-nocookie.com'
+    - '**.ggpht.com'
+    - '**.youtubei.googleapis.com'
+-   id: twitch
+    name: Twitch
+    domains:
+    - '**.twitch.tv'
+    - '**.ttvnw.net'
+    - '**.jtvnw.net'
+-   id: kick
+    name: Kick
+    domains:
+    - '**.kick.com'
+-   id: crunchyroll
+    name: Crunchyroll
+    domains:
+    - '**.crunchyroll.com'
+    - '**.vrv.co'
+-   id: vimeo
+    name: Vimeo
+    domains:
+    - '**.vimeo.com'
+    - '**.vimeocdn.com'
+-   id: dailymotion
+    name: Dailymotion
+    domains:
+    - '**.dailymotion.com'
+    - '**.dmcdn.net'
+-   id: mubi
+    name: MUBI
+    domains:
+    - '**.mubi.com'
+-   id: rakuten-tv
+    name: Rakuten TV
+    domains:
+    - '**.rakuten.tv'
+-   id: plex
+    name: Plex
+    domains:
+    - '**.plex.tv'
+    - '**.plex.direct'
+-   id: viaplay
+    name: Viaplay
+    domains:
+    - '**.viaplay.com'
+-   id: canal-plus
+    name: Canal+
+    domains:
+    - '**.canalplus.com'
+-   id: orf
+    name: ORF ON
+    domains:
+    - '**.orf.at'
+-   id: srf
+    name: SRF / Play Suisse
+    domains:
+    - '**.srf.ch'
+    - '**.srgssr.ch'
+-   id: npo
+    name: NPO Start
+    domains:
+    - '**.npo.nl'
+    - '**.npostart.nl'
+-   id: svt
+    name: SVT Play
+    domains:
+    - '**.svt.se'
+    - '**.svtplay.se'
+-   id: nrk
+    name: NRK TV
+    domains:
+    - '**.nrk.no'
+-   id: rai
+    name: RaiPlay
+    domains:
+    - '**.rai.it'
+    - '**.raiplay.it'
+-   id: cbc-gem
+    name: CBC Gem
+    domains:
+    - '**.cbc.ca'
+-   id: abc-iview
+    name: ABC iview
+    domains:
+    - '**.abc.net.au'
+-   id: sbs
+    name: SBS On Demand
+    domains:
+    - '**.sbs.com.au'
+-   id: hotstar
+    name: Disney+ Hotstar
+    domains:
+    - '**.hotstar.com'
+-   id: viki
+    name: Viki
+    domains:
+    - '**.viki.com'
+-   id: iqiyi
+    name: iQIYI
+    domains:
+    - '**.iq.com'
+    - '**.iqiyi.com'

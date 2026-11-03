@@ -3,56 +3,145 @@ name:
     de: Gaming
     en: Gaming
 description:
-    de: Steam, Epic Games, PlayStation, Xbox, Nintendo, Battle.net, Riot, EA, Ubisoft
-    en: Steam, Epic Games, PlayStation, Xbox, Nintendo, Battle.net, Riot, EA, Ubisoft
+    de: 'Steam, Epic, PlayStation, Xbox, Nintendo, Battle.net, EA, Ubisoft, Riot, GeForce NOW, Rockstar, GOG, Minecraft, Roblox und mehr. Tipp: auf den Uplink mit der niedrigsten Latenz legen.'
+    en: 'Steam, Epic, PlayStation, Xbox, Nintendo, Battle.net, EA, Ubisoft, Riot, GeForce NOW, Rockstar, GOG, Minecraft, Roblox and more. Tip: use the uplink with the lowest latency.'
+priority: 0
 services:
-    - id: steam
-      name: Steam
-      domains:
-        - '**.steampowered.com'
-        - '**.steamcommunity.com'
-        - '**.steamcontent.com'
-        - '**.steamstatic.com'
-        - '**.steamserver.net'
-    - id: epic-games
-      name: Epic Games
-      domains:
-        - '**.epicgames.com'
-        - '**.epicgames.dev'
-        - '**.unrealengine.com'
-    - id: playstation
-      name: PlayStation
-      domains:
-        - '**.playstation.com'
-        - '**.playstation.net'
-        - '**.sonyentertainmentnetwork.com'
-    - id: xbox
-      name: Xbox
-      domains:
-        - '**.xbox.com'
-        - '**.xboxlive.com'
-    - id: nintendo
-      name: Nintendo
-      domains:
-        - '**.nintendo.com'
-        - '**.nintendo.net'
-    - id: battle-net
-      name: Battle.net
-      domains:
-        - '**.battle.net'
-        - '**.blizzard.com'
-    - id: riot-games
-      name: Riot Games
-      domains:
-        - '**.riotgames.com'
-        - '**.leagueoflegends.com'
-    - id: ea
-      name: EA
-      domains:
-        - '**.ea.com'
-        - '**.origin.com'
-    - id: ubisoft
-      name: Ubisoft
-      domains:
-        - '**.ubisoft.com'
-        - '**.ubi.com'
+-   id: steam
+    name: Steam
+    domains:
+    - '**.steampowered.com'
+    - '**.steamcommunity.com'
+    - '**.steamcontent.com'
+    - '**.steamstatic.com'
+    - '**.steamserver.net'
+    - '**.valvesoftware.com'
+-   id: epic-games
+    name: Epic Games
+    domains:
+    - '**.epicgames.com'
+    - '**.epicgames.dev'
+    - '**.unrealengine.com'
+-   id: playstation
+    name: PlayStation
+    domains:
+    - '**.playstation.com'
+    - '**.playstation.net'
+    - '**.sonyentertainmentnetwork.com'
+-   id: xbox
+    name: Xbox / Game Pass
+    domains:
+    - '**.xbox.com'
+    - '**.xboxlive.com'
+-   id: nintendo
+    name: Nintendo
+    domains:
+    - '**.nintendo.com'
+    - '**.nintendo.net'
+    - '**.nintendo.de'
+    - '**.nintendo.co.uk'
+    - '**.nintendo.eu'
+-   id: battle-net
+    name: Battle.net
+    domains:
+    - '**.battle.net'
+    - '**.blizzard.com'
+-   id: activision
+    name: Activision / Call of Duty
+    domains:
+    - '**.activision.com'
+    - '**.callofduty.com'
+-   id: riot-games
+    name: Riot Games
+    domains:
+    - '**.riotgames.com'
+    - '**.leagueoflegends.com'
+    - '**.playvalorant.com'
+-   id: ea
+    name: EA / EA app / EA Play
+    domains:
+    - '**.ea.com'
+    - '**.origin.com'
+-   id: ubisoft
+    name: Ubisoft / Ubisoft+
+    domains:
+    - '**.ubisoft.com'
+    - '**.ubi.com'
+    - '**.ubisoftconnect.com'
+-   id: geforce-now
+    name: NVIDIA GeForce NOW
+    domains:
+    - '**.nvidia.com'
+    - '**.geforcenow.com'
+    - '**.nvidiagrid.net'
+-   id: amazon-luna
+    name: Amazon Luna
+    domains:
+    - '**.luna.amazon.com'
+-   id: boosteroid
+    name: Boosteroid
+    domains:
+    - '**.boosteroid.com'
+-   id: rockstar
+    name: Rockstar Games
+    domains:
+    - '**.rockstargames.com'
+-   id: 2k
+    name: 2K
+    domains:
+    - '**.2k.com'
+-   id: bethesda
+    name: Bethesda
+    domains:
+    - '**.bethesda.net'
+-   id: gog
+    name: GOG
+    domains:
+    - '**.gog.com'
+-   id: minecraft
+    name: Minecraft
+    domains:
+    - '**.minecraft.net'
+    - '**.mojang.com'
+-   id: roblox
+    name: Roblox
+    domains:
+    - '**.roblox.com'
+    - '**.rbxcdn.com'
+-   id: square-enix
+    name: Square Enix
+    domains:
+    - '**.square-enix.com'
+    - '**.square-enix-games.com'
+    - '**.playonline.com'
+-   id: bandai-namco
+    name: Bandai Namco
+    domains:
+    - '**.bandainamcoent.com'
+-   id: hoyoverse
+    name: HoYoverse (Genshin)
+    domains:
+    - '**.hoyoverse.com'
+    - '**.mihoyo.com'
+-   id: wargaming
+    name: Wargaming
+    domains:
+    - '**.wargaming.net'
+    - '**.worldoftanks.eu'
+    - '**.worldoftanks.com'
+-   id: supercell
+    name: Supercell
+    domains:
+    - '**.supercell.com'
+-   id: faceit
+    name: FACEIT
+    domains:
+    - '**.faceit.com'
+-   id: humble
+    name: Humble Bundle
+    domains:
+    - '**.humblebundle.com'
+-   id: itch
+    name: itch.io
+    domains:
+    - '**.itch.io'

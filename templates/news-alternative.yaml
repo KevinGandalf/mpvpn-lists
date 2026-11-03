@@ -1,0 +1,119 @@
+id: news-alternative
+name:
+    de: Nachrichten unabhängig & alternativ
+    en: News (independent & alternative)
+description:
+    de: Unabhängige, nicht etablierte und meinungsstarke Medien aus unterschiedlichen politischen Richtungen – reine Domainliste, keine Wertung.
+    en: Independent, non-mainstream and opinion media from across the political spectrum – a plain domain list, no endorsement.
+priority: 0
+services:
+-   id: krautreporter
+    name: Krautreporter
+    domains:
+    - '**.krautreporter.de'
+-   id: correctiv
+    name: CORRECTIV
+    domains:
+    - '**.correctiv.org'
+-   id: uebermedien
+    name: Übermedien
+    domains:
+    - '**.uebermedien.de'
+-   id: freitag
+    name: der Freitag
+    domains:
+    - '**.freitag.de'
+-   id: telepolis
+    name: Telepolis
+    domains:
+    - '**.telepolis.de'
+-   id: nachdenkseiten
+    name: NachDenkSeiten
+    domains:
+    - '**.nachdenkseiten.de'
+-   id: overton
+    name: Overton Magazin
+    domains:
+    - '**.overton-magazin.de'
+-   id: jacobin
+    name: Jacobin
+    domains:
+    - '**.jacobin.de'
+    - '**.jacobin.com'
+-   id: junge-welt
+    name: junge Welt
+    domains:
+    - '**.jungewelt.de'
+-   id: cicero
+    name: Cicero
+    domains:
+    - '**.cicero.de'
+-   id: tichys-einblick
+    name: Tichys Einblick
+    domains:
+    - '**.tichyseinblick.de'
+-   id: achgut
+    name: Achse des Guten
+    domains:
+    - '**.achgut.com'
+-   id: apollo-news
+    name: Apollo News
+    domains:
+    - '**.apollo-news.net'
+-   id: nius
+    name: NIUS
+    domains:
+    - '**.nius.de'
+-   id: junge-freiheit
+    name: Junge Freiheit
+    domains:
+    - '**.jungefreiheit.de'
+-   id: multipolar
+    name: Multipolar
+    domains:
+    - '**.multipolar-magazin.de'
+-   id: substack
+    name: Substack
+    domains:
+    - '**.substack.com'
+    - '**.substackcdn.com'
+-   id: propublica
+    name: ProPublica
+    domains:
+    - '**.propublica.org'
+-   id: the-intercept
+    name: The Intercept
+    domains:
+    - '**.theintercept.com'
+-   id: democracy-now
+    name: Democracy Now!
+    domains:
+    - '**.democracynow.org'
+-   id: mother-jones
+    name: Mother Jones
+    domains:
+    - '**.motherjones.com'
+-   id: the-free-press
+    name: The Free Press
+    domains:
+    - '**.thefp.com'
+-   id: reason
+    name: Reason
+    domains:
+    - '**.reason.com'
+-   id: unherd
+    name: UnHerd
+    domains:
+    - '**.unherd.com'
+-   id: spiked
+    name: spiked
+    domains:
+    - '**.spiked-online.com'
+-   id: breitbart
+    name: Breitbart
+    domains:
+    - '**.breitbart.com'
+-   id: daily-wire
+    name: The Daily Wire
+    domains:
+    - '**.dailywire.com'

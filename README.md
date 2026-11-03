@@ -31,9 +31,44 @@ tools/validate.py       the same checks MPVPN runs before installing a version
   also has a built-in copy for first boot and offline use.
 
 **Keep IDs stable.** Template IDs (file names) and service IDs are what lists
-store. Renaming `netflix` to `netflix-de` makes every list lose Netflix (it is
-shown as "no longer in the templates"). Change names and domains freely; add
-new IDs instead of renaming.
+store. Change names and domains freely. When a template or service has to be
+renamed, moved or split, add an **alias** in `index.yaml` so lists that use the
+old ID keep working:
+
+```yaml
+aliases:
+  streaming: [streaming-de, streaming-us, streaming-uk, streaming-other]   # template
+  streaming/netflix: [streaming-us/netflix]                                # service
+  streaming/ard-zdf-arte: [streaming-de/ard, streaming-de/zdf, streaming-de/arte]
+```
+
+An alias must not have the name of an existing template or service, and every
+target must exist. Never remove an alias – old lists may still use it.
+
+## Templates
+
+| ID | Content |
+| --- | --- |
+| `banking` | German banks, online banks, neobanks, brokers, payment services |
+| `banking-international` | Banks in AT, CH, UK, US and Europe |
+| `crypto` | Crypto exchanges |
+| `streaming-de` | ARD, ZDF, arte, RTL+, Joyn, WOW/Sky, MagentaTV, waipu.tv, Zattoo, DAZN, … |
+| `streaming-us` | Netflix, Disney+, Prime Video, Max, Hulu, Peacock, Paramount+, Apple TV+, … |
+| `streaming-uk` | BBC iPlayer, ITVX, Channel 4, My5, NOW, Sky UK, BritBox, … |
+| `streaming-other` | YouTube, Twitch, Crunchyroll, video platforms, broadcasters of other countries |
+| `music` | Spotify, Apple Music, Deezer, Tidal, SoundCloud, Amazon Music |
+| `gaming` | Stores, consoles, launchers, cloud gaming (GeForce NOW, Luna, Boosteroid) |
+| `social` | Social networks and messengers |
+| `video-calls` | Zoom, Teams, Webex, Meet, Jitsi |
+| `mail-cloud` | Mail providers and cloud storage |
+| `news` | National press DE/AT/CH and tech media |
+| `news-international` | International press and agencies |
+| `news-alternative` | Independent / non-mainstream media from across the political spectrum (a plain domain list, no endorsement) |
+| `shopping` | Marketplaces, fashion, electronics, drugstores, DIY, groceries, travel, delivery |
+| `ai` | ChatGPT, Claude, Gemini, Copilot, Perplexity, Mistral, DeepL |
+
+The same domain may appear in two templates (e.g. `t-online.de` in mail and
+news); in MPVPN the list with the lower priority value is checked first.
 
 ## File format
 

@@ -1,0 +1,29 @@
+id: crypto
+name:
+    de: Krypto-Börsen
+    en: Crypto exchanges
+description:
+    de: 'Coinbase, Kraken, Binance, Bitpanda, BISON. Wie Banking: ein fester Uplink oder Direkt vermeidet Sperren.'
+    en: 'Coinbase, Kraken, Binance, Bitpanda, BISON. As with banking: one fixed uplink or Direct avoids lockouts.'
+priority: -10
+services:
+-   id: coinbase
+    name: Coinbase
+    domains:
+    - '**.coinbase.com'
+-   id: kraken
+    name: Kraken
+    domains:
+    - '**.kraken.com'
+-   id: binance
+    name: Binance
+    domains:
+    - '**.binance.com'
+-   id: bitpanda
+    name: Bitpanda
+    domains:
+    - '**.bitpanda.com'
+-   id: bison
+    name: BISON
+    domains:
+    - '**.bisonapp.com'

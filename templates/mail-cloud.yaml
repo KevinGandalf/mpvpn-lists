@@ -3,55 +3,139 @@ name:
     de: Mail & Cloud
     en: Mail & cloud
 description:
-    de: Google (Gmail, Drive), Microsoft 365/Outlook/OneDrive, iCloud, GMX, WEB.DE, Proton, Dropbox, Telekom Mail
-    en: Google (Gmail, Drive), Microsoft 365/Outlook/OneDrive, iCloud, GMX, WEB.DE, Proton, Dropbox, Telekom Mail
+    de: Gmail, Outlook/Microsoft 365, iCloud, GMX, WEB.DE, Proton, Tuta, Posteo, mailbox.org, Yahoo und weitere Mail-Anbieter sowie Cloud-Speicher wie Dropbox, MEGA, pCloud, Box.
+    en: Gmail, Outlook/Microsoft 365, iCloud, GMX, WEB.DE, Proton, Tuta, Posteo, mailbox.org, Yahoo and more mail providers plus cloud storage such as Dropbox, MEGA, pCloud, Box.
+priority: 0
 services:
-    - id: google-gmail-drive-docs
-      name: Google (Gmail, Drive, Docs)
-      domains:
-        - mail.google.com
-        - drive.google.com
-        - docs.google.com
-        - '**.googleusercontent.com'
-        - accounts.google.com
-    - id: microsoft-365-outlook-onedrive
-      name: Microsoft 365 / Outlook / OneDrive
-      domains:
-        - '**.outlook.com'
-        - '**.office.com'
-        - '**.office365.com'
-        - '**.onedrive.com'
-        - '**.sharepoint.com'
-        - '**.live.com'
-        - login.microsoftonline.com
-    - id: icloud
-      name: iCloud
-      domains:
-        - '**.icloud.com'
-        - '**.icloud-content.com'
-        - '**.apple-cloudkit.com'
-    - id: gmx
-      name: GMX
-      domains:
-        - '**.gmx.net'
-        - '**.gmx.de'
-    - id: web-de
-      name: WEB.DE
-      domains:
-        - '**.web.de'
-    - id: proton
-      name: Proton
-      domains:
-        - '**.proton.me'
-        - '**.protonmail.com'
-    - id: dropbox
-      name: Dropbox
-      domains:
-        - '**.dropbox.com'
-        - '**.dropboxapi.com'
-        - '**.dropboxusercontent.com'
-    - id: telekom-mail
-      name: Telekom Mail
-      domains:
-        - '**.t-online.de'
-        - '**.telekom.de'
+-   id: google-gmail-drive-docs
+    name: Google (Gmail, Drive, Docs)
+    domains:
+    - '**.mail.google.com'
+    - '**.drive.google.com'
+    - '**.docs.google.com'
+    - '**.googleusercontent.com'
+    - '**.accounts.google.com'
+-   id: microsoft-365-outlook-onedrive
+    name: Microsoft 365 / Outlook / OneDrive
+    domains:
+    - '**.outlook.com'
+    - '**.office.com'
+    - '**.office365.com'
+    - '**.onedrive.com'
+    - '**.sharepoint.com'
+    - '**.live.com'
+    - '**.login.microsoftonline.com'
+-   id: icloud
+    name: iCloud
+    domains:
+    - '**.icloud.com'
+    - '**.icloud-content.com'
+    - '**.apple-cloudkit.com'
+-   id: gmx
+    name: GMX
+    domains:
+    - '**.gmx.net'
+    - '**.gmx.de'
+    - '**.gmx.com'
+    - '**.gmx.at'
+    - '**.gmx.ch'
+-   id: web-de
+    name: WEB.DE
+    domains:
+    - '**.web.de'
+-   id: telekom-mail
+    name: Telekom Mail
+    domains:
+    - '**.t-online.de'
+    - '**.telekom.de'
+    - '**.magentacloud.de'
+-   id: freenet
+    name: freenet Mail
+    domains:
+    - '**.freenet.de'
+-   id: ionos
+    name: IONOS / 1&1
+    domains:
+    - '**.ionos.de'
+    - '**.ionos.com'
+    - '**.1und1.de'
+-   id: strato
+    name: STRATO / HiDrive
+    domains:
+    - '**.strato.de'
+    - '**.hidrive.com'
+-   id: proton
+    name: Proton
+    domains:
+    - '**.proton.me'
+    - '**.protonmail.com'
+-   id: tuta
+    name: Tuta (Tutanota)
+    domains:
+    - '**.tuta.com'
+    - '**.tutanota.com'
+-   id: posteo
+    name: Posteo
+    domains:
+    - '**.posteo.de'
+-   id: mailbox-org
+    name: mailbox.org
+    domains:
+    - '**.mailbox.org'
+-   id: mail-de
+    name: mail.de
+    domains:
+    - '**.mail.de'
+-   id: yahoo-mail
+    name: Yahoo Mail
+    domains:
+    - '**.mail.yahoo.com'
+    - '**.login.yahoo.com'
+-   id: aol
+    name: AOL Mail
+    domains:
+    - '**.aol.com'
+-   id: zoho
+    name: Zoho Mail
+    domains:
+    - '**.zoho.com'
+    - '**.zoho.eu'
+-   id: fastmail
+    name: Fastmail
+    domains:
+    - '**.fastmail.com'
+-   id: dropbox
+    name: Dropbox
+    domains:
+    - '**.dropbox.com'
+    - '**.dropboxapi.com'
+    - '**.dropboxusercontent.com'
+-   id: box
+    name: Box
+    domains:
+    - '**.box.com'
+-   id: mega
+    name: MEGA
+    domains:
+    - '**.mega.nz'
+    - '**.mega.io'
+-   id: pcloud
+    name: pCloud
+    domains:
+    - '**.pcloud.com'
+-   id: tresorit
+    name: Tresorit
+    domains:
+    - '**.tresorit.com'
+-   id: sync-com
+    name: Sync.com
+    domains:
+    - '**.sync.com'
+-   id: filen
+    name: Filen
+    domains:
+    - '**.filen.io'
+-   id: wetransfer
+    name: WeTransfer
+    domains:
+    - '**.wetransfer.com'

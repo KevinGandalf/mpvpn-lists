@@ -1,0 +1,144 @@
+id: banking-international
+name:
+    de: Banking international
+    en: Banking (international)
+description:
+    de: 'Banken in Österreich, der Schweiz, Großbritannien, den USA und Europa. Wie beim deutschen Banking: am besten ein fester Uplink oder Direkt.'
+    en: 'Banks in Austria, Switzerland, the UK, the US and Europe. As with German banking: best on one fixed uplink or Direct.'
+priority: -10
+services:
+-   id: erste-sparkasse-at
+    name: Erste Bank & Sparkasse (AT)
+    domains:
+    - '**.sparkasse.at'
+    - '**.erstebank.at'
+-   id: raiffeisen-at
+    name: Raiffeisen (AT)
+    domains:
+    - '**.raiffeisen.at'
+-   id: bawag
+    name: BAWAG
+    domains:
+    - '**.bawag.at'
+-   id: ubs
+    name: UBS
+    domains:
+    - '**.ubs.com'
+-   id: postfinance
+    name: PostFinance
+    domains:
+    - '**.postfinance.ch'
+-   id: raiffeisen-ch
+    name: Raiffeisen (CH)
+    domains:
+    - '**.raiffeisen.ch'
+-   id: zkb
+    name: Zürcher Kantonalbank
+    domains:
+    - '**.zkb.ch'
+-   id: hsbc
+    name: HSBC
+    domains:
+    - '**.hsbc.com'
+    - '**.hsbc.co.uk'
+-   id: barclays-uk
+    name: Barclays (UK)
+    domains:
+    - '**.barclays.co.uk'
+-   id: lloyds
+    name: Lloyds Bank
+    domains:
+    - '**.lloydsbank.com'
+-   id: natwest
+    name: NatWest
+    domains:
+    - '**.natwest.com'
+-   id: santander-uk
+    name: Santander (UK)
+    domains:
+    - '**.santander.co.uk'
+-   id: monzo
+    name: Monzo
+    domains:
+    - '**.monzo.com'
+-   id: starling
+    name: Starling Bank
+    domains:
+    - '**.starlingbank.com'
+-   id: chase
+    name: Chase
+    domains:
+    - '**.chase.com'
+-   id: bank-of-america
+    name: Bank of America
+    domains:
+    - '**.bankofamerica.com'
+-   id: wells-fargo
+    name: Wells Fargo
+    domains:
+    - '**.wellsfargo.com'
+-   id: citi
+    name: Citi
+    domains:
+    - '**.citi.com'
+    - '**.citibank.com'
+-   id: capital-one
+    name: Capital One
+    domains:
+    - '**.capitalone.com'
+-   id: abn-amro
+    name: ABN AMRO
+    domains:
+    - '**.abnamro.nl'
+-   id: rabobank
+    name: Rabobank
+    domains:
+    - '**.rabobank.nl'
+-   id: ing-nl
+    name: ING (NL)
+    domains:
+    - '**.ing.nl'
+-   id: bnp-paribas
+    name: BNP Paribas
+    domains:
+    - '**.mabanque.bnpparibas'
+-   id: societe-generale
+    name: Société Générale
+    domains:
+    - '**.societegenerale.fr'
+-   id: credit-agricole
+    name: Crédit Agricole
+    domains:
+    - '**.credit-agricole.fr'
+-   id: unicredit
+    name: UniCredit
+    domains:
+    - '**.unicredit.it'
+-   id: intesa-sanpaolo
+    name: Intesa Sanpaolo
+    domains:
+    - '**.intesasanpaolo.com'
+-   id: bbva
+    name: BBVA
+    domains:
+    - '**.bbva.es'
+-   id: caixabank
+    name: CaixaBank
+    domains:
+    - '**.caixabank.es'
+-   id: nordea
+    name: Nordea
+    domains:
+    - '**.nordea.com'
+-   id: danske-bank
+    name: Danske Bank
+    domains:
+    - '**.danskebank.dk'
+-   id: swedbank
+    name: Swedbank
+    domains:
+    - '**.swedbank.se'
+-   id: seb
+    name: SEB
+    domains:
+    - '**.seb.se'
