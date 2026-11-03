@@ -1,0 +1,41 @@
+id: ai
+name:
+    de: KI-Assistenten
+    en: AI assistants
+description:
+    de: ChatGPT, Claude, Gemini, Microsoft Copilot, Perplexity, Mistral, DeepL
+    en: ChatGPT, Claude, Gemini, Microsoft Copilot, Perplexity, Mistral, DeepL
+services:
+    - id: chatgpt-openai
+      name: ChatGPT / OpenAI
+      domains:
+        - '**.openai.com'
+        - '**.chatgpt.com'
+        - '**.oaiusercontent.com'
+    - id: claude
+      name: Claude
+      domains:
+        - '**.claude.ai'
+        - '**.anthropic.com'
+    - id: gemini
+      name: Gemini
+      domains:
+        - gemini.google.com
+        - '**.gemini.google.com'
+    - id: microsoft-copilot
+      name: Microsoft Copilot
+      domains:
+        - '**.copilot.microsoft.com'
+        - copilot.microsoft.com
+    - id: perplexity
+      name: Perplexity
+      domains:
+        - '**.perplexity.ai'
+    - id: mistral
+      name: Mistral
+      domains:
+        - '**.mistral.ai'
+    - id: deepl
+      name: DeepL
+      domains:
+        - '**.deepl.com'

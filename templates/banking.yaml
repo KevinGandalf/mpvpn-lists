@@ -1,0 +1,91 @@
+id: banking
+name:
+    de: Banking & Bezahlen
+    en: Banking & payments
+description:
+    de: 'Sparkassen, Volks- und Raiffeisenbanken, Deutsche Bank, Commerzbank, ING, DKB, comdirect, N26, Postbank, Consorsbank, HVB, Targobank, Santander, Trade Republic, Scalable, PayPal, Klarna. Tipp: auf einen festen Uplink oder Direkt legen – Banken reagieren auf wechselnde IPs oft mit Sperren oder Nachfragen.'
+    en: 'Savings banks (Sparkassen), cooperative banks, Deutsche Bank, Commerzbank, ING, DKB, comdirect, N26, Postbank, Consorsbank, HVB, Targobank, Santander, Trade Republic, Scalable, PayPal, Klarna. Tip: pin it to one fixed uplink or Direct – banks often block or challenge changing IPs.'
+priority: -10
+services:
+    - id: sparkassen
+      name: Sparkassen
+      domains:
+        - '**.sparkasse.de'
+        - sparkasse-*.de
+        - '**.sparkasse-*.de'
+        - ksk-*.de
+        - '**.ksk-*.de'
+        - '**.s-mobile.de'
+    - id: volks-raiffeisenbanken
+      name: Volks- & Raiffeisenbanken
+      domains:
+        - volksbank-*.de
+        - '**.volksbank-*.de'
+        - vr-*.de
+        - '**.vr-*.de'
+        - '**.vr.de'
+        - '**.atruvia.de'
+    - id: deutsche-bank
+      name: Deutsche Bank
+      domains:
+        - '**.deutsche-bank.de'
+        - '**.db.com'
+    - id: commerzbank
+      name: Commerzbank
+      domains:
+        - '**.commerzbank.de'
+    - id: ing
+      name: ING
+      domains:
+        - '**.ing.de'
+    - id: dkb
+      name: DKB
+      domains:
+        - '**.dkb.de'
+    - id: comdirect
+      name: comdirect
+      domains:
+        - '**.comdirect.de'
+    - id: n26
+      name: N26
+      domains:
+        - '**.n26.com'
+        - '**.tech26.de'
+    - id: postbank
+      name: Postbank
+      domains:
+        - '**.postbank.de'
+    - id: consorsbank
+      name: Consorsbank
+      domains:
+        - '**.consorsbank.de'
+    - id: hypovereinsbank
+      name: HypoVereinsbank
+      domains:
+        - '**.hypovereinsbank.de'
+    - id: targobank
+      name: Targobank
+      domains:
+        - '**.targobank.de'
+    - id: santander
+      name: Santander
+      domains:
+        - '**.santander.de'
+    - id: trade-republic
+      name: Trade Republic
+      domains:
+        - '**.traderepublic.com'
+    - id: scalable-capital
+      name: Scalable Capital
+      domains:
+        - '**.scalable.capital'
+    - id: paypal
+      name: PayPal
+      domains:
+        - '**.paypal.com'
+        - '**.paypal.de'
+        - '**.paypalobjects.com'
+    - id: klarna
+      name: Klarna
+      domains:
+        - '**.klarna.com'

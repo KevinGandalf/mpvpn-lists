@@ -1,0 +1,72 @@
+id: shopping
+name:
+    de: Shopping
+    en: Shopping
+description:
+    de: Amazon, eBay, Otto, Zalando, Kaufland, MediaMarkt/Saturn, Lidl, IKEA, About You, idealo, AliExpress, Temu, Etsy
+    en: Amazon, eBay, Otto, Zalando, Kaufland, MediaMarkt/Saturn, Lidl, IKEA, About You, idealo, AliExpress, Temu, Etsy
+services:
+    - id: amazon
+      name: Amazon
+      domains:
+        - '**.amazon.de'
+        - '**.amazon.com'
+        - '**.media-amazon.com'
+        - '**.ssl-images-amazon.com'
+        - '**.amazon-adsystem.com'
+    - id: ebay
+      name: eBay
+      domains:
+        - '**.ebay.de'
+        - '**.ebay.com'
+        - '**.ebaystatic.com'
+        - '**.ebayimg.com'
+    - id: otto
+      name: Otto
+      domains:
+        - '**.otto.de'
+    - id: zalando
+      name: Zalando
+      domains:
+        - '**.zalando.de'
+        - '**.zalando.net'
+        - '**.ztat.net'
+    - id: kaufland
+      name: Kaufland
+      domains:
+        - '**.kaufland.de'
+    - id: mediamarkt-saturn
+      name: MediaMarkt / Saturn
+      domains:
+        - '**.mediamarkt.de'
+        - '**.saturn.de'
+    - id: lidl
+      name: Lidl
+      domains:
+        - '**.lidl.de'
+    - id: ikea
+      name: IKEA
+      domains:
+        - '**.ikea.com'
+    - id: about-you
+      name: About You
+      domains:
+        - '**.aboutyou.de'
+    - id: idealo
+      name: idealo
+      domains:
+        - '**.idealo.de'
+    - id: aliexpress
+      name: AliExpress
+      domains:
+        - '**.aliexpress.com'
+        - '**.alicdn.com'
+    - id: temu
+      name: Temu
+      domains:
+        - '**.temu.com'
+    - id: etsy
+      name: Etsy
+      domains:
+        - '**.etsy.com'
+        - '**.etsystatic.com'

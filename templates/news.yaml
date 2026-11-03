@@ -1,0 +1,60 @@
+id: news
+name:
+    de: News & Medien
+    en: News & media
+description:
+    de: tagesschau, SPIEGEL, ZEIT, FAZ, Süddeutsche, Welt, Bild, n-tv, t-online, heise, golem, Stern, Focus
+    en: tagesschau, SPIEGEL, ZEIT, FAZ, Süddeutsche, Welt, Bild, n-tv, t-online, heise, golem, Stern, Focus
+services:
+    - id: tagesschau
+      name: tagesschau
+      domains:
+        - '**.tagesschau.de'
+    - id: spiegel
+      name: SPIEGEL
+      domains:
+        - '**.spiegel.de'
+    - id: zeit
+      name: ZEIT
+      domains:
+        - '**.zeit.de'
+    - id: faz
+      name: FAZ
+      domains:
+        - '**.faz.net'
+    - id: sueddeutsche
+      name: Süddeutsche
+      domains:
+        - '**.sueddeutsche.de'
+    - id: welt
+      name: Welt
+      domains:
+        - '**.welt.de'
+    - id: bild
+      name: Bild
+      domains:
+        - '**.bild.de'
+    - id: n-tv
+      name: n-tv
+      domains:
+        - '**.n-tv.de'
+    - id: t-online
+      name: t-online
+      domains:
+        - '**.t-online.de'
+    - id: heise
+      name: heise
+      domains:
+        - '**.heise.de'
+    - id: golem
+      name: golem
+      domains:
+        - '**.golem.de'
+    - id: stern
+      name: Stern
+      domains:
+        - '**.stern.de'
+    - id: focus
+      name: Focus
+      domains:
+        - '**.focus.de'

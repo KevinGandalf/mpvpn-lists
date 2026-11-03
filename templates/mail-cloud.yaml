@@ -1,0 +1,57 @@
+id: mail-cloud
+name:
+    de: Mail & Cloud
+    en: Mail & cloud
+description:
+    de: Google (Gmail, Drive), Microsoft 365/Outlook/OneDrive, iCloud, GMX, WEB.DE, Proton, Dropbox, Telekom Mail
+    en: Google (Gmail, Drive), Microsoft 365/Outlook/OneDrive, iCloud, GMX, WEB.DE, Proton, Dropbox, Telekom Mail
+services:
+    - id: google-gmail-drive-docs
+      name: Google (Gmail, Drive, Docs)
+      domains:
+        - mail.google.com
+        - drive.google.com
+        - docs.google.com
+        - '**.googleusercontent.com'
+        - accounts.google.com
+    - id: microsoft-365-outlook-onedrive
+      name: Microsoft 365 / Outlook / OneDrive
+      domains:
+        - '**.outlook.com'
+        - '**.office.com'
+        - '**.office365.com'
+        - '**.onedrive.com'
+        - '**.sharepoint.com'
+        - '**.live.com'
+        - login.microsoftonline.com
+    - id: icloud
+      name: iCloud
+      domains:
+        - '**.icloud.com'
+        - '**.icloud-content.com'
+        - '**.apple-cloudkit.com'
+    - id: gmx
+      name: GMX
+      domains:
+        - '**.gmx.net'
+        - '**.gmx.de'
+    - id: web-de
+      name: WEB.DE
+      domains:
+        - '**.web.de'
+    - id: proton
+      name: Proton
+      domains:
+        - '**.proton.me'
+        - '**.protonmail.com'
+    - id: dropbox
+      name: Dropbox
+      domains:
+        - '**.dropbox.com'
+        - '**.dropboxapi.com'
+        - '**.dropboxusercontent.com'
+    - id: telekom-mail
+      name: Telekom Mail
+      domains:
+        - '**.t-online.de'
+        - '**.telekom.de'

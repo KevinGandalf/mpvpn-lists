@@ -1,0 +1,70 @@
+id: social
+name:
+    de: Social Media & Messenger
+    en: Social media & messengers
+description:
+    de: Facebook, Instagram, WhatsApp, TikTok, X/Twitter, Reddit, LinkedIn, Snapchat, Telegram, Signal, Pinterest
+    en: Facebook, Instagram, WhatsApp, TikTok, X/Twitter, Reddit, LinkedIn, Snapchat, Telegram, Signal, Pinterest
+services:
+    - id: facebook-messenger
+      name: Facebook / Messenger
+      domains:
+        - '**.facebook.com'
+        - '**.fbcdn.net'
+        - '**.facebook.net'
+        - '**.messenger.com'
+    - id: instagram
+      name: Instagram
+      domains:
+        - '**.instagram.com'
+        - '**.cdninstagram.com'
+    - id: whatsapp
+      name: WhatsApp
+      domains:
+        - '**.whatsapp.com'
+        - '**.whatsapp.net'
+    - id: tiktok
+      name: TikTok
+      domains:
+        - '**.tiktok.com'
+        - '**.tiktokcdn.com'
+        - '**.tiktokv.com'
+        - '**.byteoversea.com'
+    - id: x-twitter
+      name: X / Twitter
+      domains:
+        - '**.x.com'
+        - '**.twitter.com'
+        - '**.twimg.com'
+        - '**.t.co'
+    - id: reddit
+      name: Reddit
+      domains:
+        - '**.reddit.com'
+        - '**.redditmedia.com'
+        - '**.redditstatic.com'
+        - '**.redd.it'
+    - id: linkedin
+      name: LinkedIn
+      domains:
+        - '**.linkedin.com'
+        - '**.licdn.com'
+    - id: snapchat
+      name: Snapchat
+      domains:
+        - '**.snapchat.com'
+        - '**.sc-cdn.net'
+    - id: telegram
+      name: Telegram
+      domains:
+        - '**.telegram.org'
+        - '**.t.me'
+    - id: signal
+      name: Signal
+      domains:
+        - '**.signal.org'
+    - id: pinterest
+      name: Pinterest
+      domains:
+        - '**.pinterest.com'
+        - '**.pinimg.com'

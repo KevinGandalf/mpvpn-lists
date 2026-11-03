@@ -1,0 +1,94 @@
+id: streaming
+name:
+    de: Video-Streaming
+    en: Video streaming
+description:
+    de: Netflix, Disney+, Prime Video, YouTube, Apple TV+, DAZN, WOW/Sky, Joyn, RTL+, Mediatheken, Twitch, Paramount+, Crunchyroll
+    en: Netflix, Disney+, Prime Video, YouTube, Apple TV+, DAZN, WOW/Sky, Joyn, RTL+, public broadcasters, Twitch, Paramount+, Crunchyroll
+services:
+    - id: netflix
+      name: Netflix
+      domains:
+        - '**.netflix.com'
+        - '**.netflix.net'
+        - '**.nflxvideo.net'
+        - '**.nflximg.net'
+        - '**.nflximg.com'
+        - '**.nflxext.com'
+        - '**.nflxso.net'
+    - id: disney-plus
+      name: Disney+
+      domains:
+        - '**.disneyplus.com'
+        - '**.disney-plus.net'
+        - '**.dssott.com'
+        - '**.bamgrid.com'
+        - '**.disneystreaming.com'
+    - id: prime-video
+      name: Prime Video
+      domains:
+        - '**.primevideo.com'
+        - '**.aiv-cdn.net'
+        - '**.aiv-delivery.net'
+        - '**.amazonvideo.com'
+        - '**.pv-cdn.net'
+    - id: youtube
+      name: YouTube
+      domains:
+        - '**.youtube.com'
+        - '**.googlevideo.com'
+        - '**.ytimg.com'
+        - '**.youtu.be'
+        - '**.youtube-nocookie.com'
+        - '**.ggpht.com'
+        - '**.youtubei.googleapis.com'
+    - id: apple-tv-plus
+      name: Apple TV+
+      domains:
+        - tv.apple.com
+        - '**.tv.apple.com'
+    - id: dazn
+      name: DAZN
+      domains:
+        - '**.dazn.com'
+        - '**.dazn-api.com'
+        - '**.indazn.com'
+    - id: wow-sky
+      name: WOW / Sky
+      domains:
+        - '**.wowtv.de'
+        - '**.sky.de'
+        - '**.sky.com'
+    - id: joyn
+      name: Joyn
+      domains:
+        - '**.joyn.de'
+        - '**.joyn.net'
+    - id: rtl-plus
+      name: RTL+
+      domains:
+        - '**.rtlplus.de'
+        - plus.rtl.de
+        - '**.plus.rtl.de'
+    - id: ard-zdf-arte
+      name: ARD / ZDF / arte
+      domains:
+        - '**.ardmediathek.de'
+        - '**.ard.de'
+        - '**.zdf.de'
+        - '**.arte.tv'
+    - id: twitch
+      name: Twitch
+      domains:
+        - '**.twitch.tv'
+        - '**.ttvnw.net'
+        - '**.jtvnw.net'
+    - id: paramount-plus
+      name: Paramount+
+      domains:
+        - '**.paramountplus.com'
+    - id: crunchyroll
+      name: Crunchyroll
+      domains:
+        - '**.crunchyroll.com'
+        - '**.vrv.co'

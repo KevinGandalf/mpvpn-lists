@@ -1,0 +1,42 @@
+id: music
+name:
+    de: Musik-Streaming
+    en: Music streaming
+description:
+    de: Spotify, Apple Music, Deezer, Tidal, SoundCloud, Amazon Music
+    en: Spotify, Apple Music, Deezer, Tidal, SoundCloud, Amazon Music
+services:
+    - id: spotify
+      name: Spotify
+      domains:
+        - '**.spotify.com'
+        - '**.scdn.co'
+        - '**.spotifycdn.com'
+        - '**.spotilocal.com'
+    - id: apple-music
+      name: Apple Music
+      domains:
+        - music.apple.com
+        - '**.music.apple.com'
+    - id: deezer
+      name: Deezer
+      domains:
+        - '**.deezer.com'
+        - '**.dzcdn.net'
+    - id: tidal
+      name: Tidal
+      domains:
+        - '**.tidal.com'
+        - '**.tidalhifi.com'
+    - id: soundcloud
+      name: SoundCloud
+      domains:
+        - '**.soundcloud.com'
+        - '**.sndcdn.com'
+    - id: amazon-music
+      name: Amazon Music
+      domains:
+        - music.amazon.de
+        - music.amazon.com
+        - '**.music.amazon.de'
+        - '**.music.amazon.com'

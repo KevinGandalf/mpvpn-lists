@@ -1,0 +1,12 @@
+version: 2026.11.03
+templates:
+    - templates/ai.yaml
+    - templates/banking.yaml
+    - templates/gaming.yaml
+    - templates/mail-cloud.yaml
+    - templates/music.yaml
+    - templates/news.yaml
+    - templates/shopping.yaml
+    - templates/social.yaml
+    - templates/streaming.yaml
+    - templates/video-calls.yaml

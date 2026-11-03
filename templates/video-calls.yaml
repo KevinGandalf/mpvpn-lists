@@ -1,0 +1,35 @@
+id: video-calls
+name:
+    de: Videokonferenzen
+    en: Video calls
+description:
+    de: Zoom, Microsoft Teams, Webex, Google Meet, Jitsi – profitiert von einem Uplink mit niedriger Latenz
+    en: Zoom, Microsoft Teams, Webex, Google Meet, Jitsi – benefits from a low-latency uplink
+services:
+    - id: zoom
+      name: Zoom
+      domains:
+        - '**.zoom.us'
+        - '**.zoom.com'
+        - '**.zoomgov.com'
+    - id: microsoft-teams
+      name: Microsoft Teams
+      domains:
+        - teams.microsoft.com
+        - '**.teams.microsoft.com'
+        - '**.teams.live.com'
+        - '**.skype.com'
+    - id: webex
+      name: Webex
+      domains:
+        - '**.webex.com'
+    - id: google-meet
+      name: Google Meet
+      domains:
+        - meet.google.com
+        - '**.meet.google.com'
+    - id: jitsi
+      name: Jitsi
+      domains:
+        - '**.jitsi.net'
+        - meet.jit.si

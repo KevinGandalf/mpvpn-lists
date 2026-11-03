@@ -1,0 +1,58 @@
+id: gaming
+name:
+    de: Gaming
+    en: Gaming
+description:
+    de: Steam, Epic Games, PlayStation, Xbox, Nintendo, Battle.net, Riot, EA, Ubisoft
+    en: Steam, Epic Games, PlayStation, Xbox, Nintendo, Battle.net, Riot, EA, Ubisoft
+services:
+    - id: steam
+      name: Steam
+      domains:
+        - '**.steampowered.com'
+        - '**.steamcommunity.com'
+        - '**.steamcontent.com'
+        - '**.steamstatic.com'
+        - '**.steamserver.net'
+    - id: epic-games
+      name: Epic Games
+      domains:
+        - '**.epicgames.com'
+        - '**.epicgames.dev'
+        - '**.unrealengine.com'
+    - id: playstation
+      name: PlayStation
+      domains:
+        - '**.playstation.com'
+        - '**.playstation.net'
+        - '**.sonyentertainmentnetwork.com'
+    - id: xbox
+      name: Xbox
+      domains:
+        - '**.xbox.com'
+        - '**.xboxlive.com'
+    - id: nintendo
+      name: Nintendo
+      domains:
+        - '**.nintendo.com'
+        - '**.nintendo.net'
+    - id: battle-net
+      name: Battle.net
+      domains:
+        - '**.battle.net'
+        - '**.blizzard.com'
+    - id: riot-games
+      name: Riot Games
+      domains:
+        - '**.riotgames.com'
+        - '**.leagueoflegends.com'
+    - id: ea
+      name: EA
+      domains:
+        - '**.ea.com'
+        - '**.origin.com'
+    - id: ubisoft
+      name: Ubisoft
+      domains:
+        - '**.ubisoft.com'
+        - '**.ubi.com'
